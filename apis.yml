@@ -1,0 +1,55 @@
+aid: pokemon-graphql
+name: PokéAPI GraphQL
+description: "GraphQL beta endpoint for PokéAPI providing Hasura-powered queries over the complete Pokémon database including species, moves, abilities, items, evolutions, and game version data."
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/apis.yml
+created: '2026-06-14'
+modified: '2026-06-14'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - GraphQL
+  - Pokemon
+  - Gaming
+  - Open Data
+  - Hasura
+  - Developer Tools
+apis:
+  - aid: pokemon-graphql:pokemon-graphql-graphql
+    name: PokéAPI GraphQL API
+    description: "Hasura-powered GraphQL interface to the complete PokéAPI dataset, providing flexible queries over Pokémon species, moves, abilities, items, evolutions, encounters, and game version data via a single endpoint."
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://pokeapi.co/docs/graphql
+    baseURL: https://graphql.pokeapi.co/v1beta2
+    tags:
+      - GraphQL
+      - Pokemon
+      - Gaming
+      - Open Data
+    properties:
+      - type: Documentation
+        url: https://pokeapi.co/docs/graphql
+      - type: GraphQL
+        url: graphql/pokemon-graphql-graphql.md
+      - type: GraphiQL
+        url: https://graphql.pokeapi.co/v1beta2/console/
+common:
+  - type: Website
+    url: https://pokeapi.co
+  - type: Documentation
+    url: https://pokeapi.co/docs/graphql
+  - type: GitHubOrganization
+    url: https://github.com/PokeAPI
+  - type: GitHubRepository
+    url: https://github.com/PokeAPI/pokeapi
+  - type: About
+    url: https://pokeapi.co/about
+  - type: Plans
+    url: plans/pokemon-graphql-plans.md
+  - type: RateLimits
+    url: rate-limits/pokemon-graphql-rate-limits.md
+  - type: FinOps
+    url: finops/pokemon-graphql-finops.md
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
