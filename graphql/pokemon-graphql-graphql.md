@@ -1,15 +1,23 @@
-# PokéAPI GraphQL
+# PokéAPI GraphQL API
+
+The PokéAPI GraphQL endpoint is a Hasura-powered GraphQL interface over the complete PokéAPI Pokémon database. It exposes every table in the `pokemon_v2` schema as a top-level query, supporting filtering, ordering, aggregation, and pagination via Hasura's standard argument conventions. The database covers Pokémon species, individual Pokémon forms, moves, abilities, types, items, evolutions, encounters, locations, regions, generations, game versions, Pokédexes, egg groups, berries, natures, machines (TM/HM), contest effects, and associated multilingual name/description tables.
+
+Authentication is not required. The endpoint is open and rate-limited by IP.
+
+**Endpoint:** https://beta.pokeapi.co/graphql/v1beta
+
+**Documentation:** https://pokeapi.co/docs/graphql
+
+**References:**
+- Documentation: https://pokeapi.co/docs/graphql
+- GettingStarted: https://pokeapi.co/docs/graphql#quick-start
+- GraphiQL: https://beta.pokeapi.co/graphql/console/
+- GitHub: https://github.com/PokeAPI/pokeapi
+- Website: https://pokeapi.co
 
 ## Overview
 
 PokéAPI provides a free, Hasura-powered GraphQL beta endpoint exposing the complete Pokémon database. The GraphQL interface allows developers to query species, moves, abilities, items, evolutions, game version data, and more using flexible GraphQL queries rather than multiple REST calls.
-
-## Endpoint
-
-- **GraphQL Endpoint:** `https://graphql.pokeapi.co/v1beta2`
-- **GraphiQL Console:** `https://graphql.pokeapi.co/v1beta2/console/`
-
-The console includes an Explorer tool that helps developers discover and construct queries interactively without needing to know the schema in advance.
 
 ## Authentication
 
