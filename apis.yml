@@ -1,7 +1,7 @@
 aid: pokemon-graphql
 name: PokéAPI GraphQL
 description: "GraphQL beta endpoint for PokéAPI providing Hasura-powered queries over the complete Pokémon database including species, moves, abilities, items, evolutions, and game version data."
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/apis.yml
 created: '2026-06-14'
 modified: '2026-06-14'
@@ -18,7 +18,7 @@ apis:
   - aid: pokemon-graphql:pokemon-graphql-graphql
     name: PokéAPI GraphQL API
     description: "Hasura-powered GraphQL interface to the complete PokéAPI dataset, providing flexible queries over Pokémon species, moves, abilities, items, evolutions, encounters, and game version data via a single endpoint."
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://pokeapi.co/docs/graphql
     baseURL: https://graphql.pokeapi.co/v1beta2
     tags:
