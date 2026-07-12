@@ -34,6 +34,8 @@ apis:
       - type: GraphiQL
         url: https://graphql.pokeapi.co/v1beta2/console/
 common:
+  - type: DomainSecurity
+    url: security/pokemon-graphql-domain-security.yml
   - type: Website
     url: https://pokeapi.co
   - type: Documentation
