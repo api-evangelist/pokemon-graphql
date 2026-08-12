@@ -45,6 +45,9 @@ apis:
       - type: GraphiQL
         url: https://graphql.pokeapi.co/v1beta2/console/
 common:
+  - type: License
+    name: BSD-3-Clause
+    url: https://github.com/PokeAPI/pokeapi/blob/master/LICENSE
   - type: DomainSecurity
     url: security/pokemon-graphql-domain-security.yml
   - type: Website
