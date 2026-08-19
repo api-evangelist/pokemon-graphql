@@ -16,7 +16,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pokemon-gr
 url: https://raw.githubusercontent.com/api-evangelist/pokemon-graphql/refs/heads/main/apis.yml
 created: '2026-06-14'
 modified: '2026-06-14'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 type: Index
 tags:
   - GraphQL
