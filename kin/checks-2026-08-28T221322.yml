@@ -2,16 +2,16 @@
 kin_checks:
   slug: pokemon-graphql
   schema_version: 0.15.1
-  scored_at: '2026-08-27'
-  run_ts: 2026-08-27T140727
+  scored_at: '2026-08-28'
+  run_ts: 2026-08-28T221322
   note: Actionable checks only (missed + partial). earned/na are every other check
     in rubric/scoring-0.15.1.yml; counts below let you verify that.
   counts:
     total: 130
-    earned: 13
+    earned: 19
     partial: 2
-    missed: 77
-    na: 38
+    missed: 75
+    na: 34
   checks:
   - id: description_substantive
     status: missed
@@ -57,8 +57,6 @@ kin_checks:
     status: missed
   - id: overlay_published
     status: missed
-  - id: change_log_present
-    status: missed
   - id: status_page_present
     status: missed
   - id: rate_limits_documented
@@ -66,8 +64,6 @@ kin_checks:
   - id: rate_limits_rich
     status: missed
   - id: deprecation_policy
-    status: missed
-  - id: security_disclosure
     status: missed
   - id: webhooks_advertised
     status: missed
